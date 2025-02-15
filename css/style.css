@@ -2174,6 +2174,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 /* Clients */
+.c-logo {
+  width:50px;
+  height:50px;
+}
 .clients-logo {
   margin: 0 0 30px;
   border: 1px solid #dadada;
@@ -2184,11 +2188,12 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   justify-content: center;
   align-items: center;
   align-content: center;
+  
 }
 
 .clients-logo img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
   -webkit-filter: gray;
           filter: gray;
 }
